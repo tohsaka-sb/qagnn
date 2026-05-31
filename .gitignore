@@ -1,0 +1,76 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Virtual env =====
+.venv/
+venv/
+env/
+
+# ===== OS / IDE =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Logs / temp =====
+logs/
+*.log
+*.log.txt
+terminal.log
+nohup.out
+tmp/
+temp/
+
+# ===== Model outputs =====
+saved_models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# ===== Data artifacts (large / reproducible) =====
+data/
+data_old/
+data_preprocessed_release/
+data_preprocessed_release_recover/
+analysis/
+
+# ===== Cache =====
+.cache/
+.hf/
+.huggingface/
+
+# ===== Archives / large files =====
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.npy
+*.npz
+*.pk
+*.pkl
+*.joblib
+
+# ===== Documents / local binary =====
+*.doc
+*.docx
+
+# ===== Optional local notes =====
+*.write_test
+
+.ipynb_checkpoints
+
+saved*
